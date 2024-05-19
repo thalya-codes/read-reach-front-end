@@ -1,0 +1,35 @@
+:root {
+    /* Colors */ 
+    --black: #353535;
+    --orange: #FC8622;
+    --hotpink: #FF69B4;
+    --extra-light-blue: rgba(221, 238, 249, 0.46);
+    --soft-green: #78B1B7;
+    --red: #FF3F5B;
+    --overlay: rgba(217, 217, 217, 0.47);
+
+    /* Fonts */ 
+    --family-primary: "Poetsen One", sans-serif;
+    --family-secondary: "Poppins", sans-serif;
+   
+    --size-sm: 18px;
+    --size-md: 20px;
+    --size-lg: 36px;
+ 
+    /* Weight */
+    --regular: 400;
+    --semi-bold: 600;
+    --bold: 700;
+
+    /* Spacing */ 
+    --spacing-32: 32px;
+    --spacing-60: 60px;
+    --spacing-50: 50px;
+    
+    /* Radius */
+    --rounded-sm: 8px;
+    
+    /* Shadow */ 
+    --card-shadow: -4px 8px 20px 0 rgba(0, 0, 0, 0.1);
+    --header-shadow: 3px 11px 29px rgba(177, 177, 177, 0.25);
+}
