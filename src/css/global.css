@@ -13,6 +13,47 @@ label, input, button {
     line-height: 150%;
 }
 
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--white);    
+    padding: var(--spacing-20);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    box-shadow: var(--shadow-header);
+}
+
+header h1 {
+    color: var(--black);
+    font-family: var(--family-primary);
+    font-size: 40px;
+}
+
+header span {
+    position: relative;
+}
+
+header span::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    background-color: var(--hotpink);
+    width: 98%;
+    height: 3px;
+    border-radius: 5px;
+}
+
+header img {
+    width: 80px;
+}
+
 footer {
     width: 100%;
     background-color: var(--white);    
