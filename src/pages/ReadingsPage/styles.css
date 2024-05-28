@@ -1,0 +1,82 @@
+body {
+    background-color: var(--light-pink);
+}
+
+/* O Modal */
+.modal {
+    display: none; /* Escondido por padrão */
+    justify-content: center;
+    align-items: center;
+    position: fixed; /* Fica em cima da página */
+    z-index: 1; /* Fica na frente de outros elementos */
+    left: 0;
+    top: 0;
+    width: 100vw; /* Largura total */
+    height: 100vh; /* Altura total */
+    overflow: auto; /* Habilita rolagem se necessário */
+    background-color: var(--overlay);
+    box-shadow: var(--card-shadow);
+    
+}
+
+.modal__content {
+    width: 50vw;
+    height: max-content;
+    position: relative;
+    background-color: #fefefe;
+    border-radius: var(--rounded-sm);
+    padding: var(--spacing-50);    
+    border: none;
+}
+
+.modal__title {
+    color: var(--black);
+    text-align: center;
+    font-family: var(--family-primary);
+    font-size: var(--size-lg);
+    font-weight: var(--regular);
+    margin-bottom: var(--spacing-50);
+}
+
+/* Botão Fechar */
+.modal__close-btn {
+    position: absolute;
+    color: #aaa;
+    right: var(--spacing-50);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.modal__close-btn:hover,
+.modal__close-btn:focus {
+    color: var(--black);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Formulário */
+.resgister-reading-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.resgister-reading-form__label {
+    font-size: var(--size-xs);
+}
+
+.resgister-reading-form__submit-btn {
+    background-color: var(--orange);
+    font-family: var(--family-secondary);
+    color: var(--white);
+    font-size: var(--size-sm);
+    text-align: center;
+    padding: 12px;
+    width: 50%;
+    align-self: center;
+}
+
+.resgister-reading-form__submit-btn:hover {
+    background-color: var(--orange);
+    opacity: 90%;
+    color: var(--white);
+}
