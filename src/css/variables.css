@@ -3,6 +3,7 @@
     --black: #353535;
     --orange: #FC8622;
     --hotpink: #FF69B4;
+    --light-pink: rgba(247, 221, 249, 0.46);
     --extra-light-blue: rgba(221, 238, 249, 0.46);
     --soft-green: #78B1B7;
     --red: #FF3F5B;
@@ -11,7 +12,8 @@
     /* Fonts */ 
     --family-primary: "Poetsen One", sans-serif;
     --family-secondary: "Poppins", sans-serif;
-   
+    
+    --size-xs: 16px;
     --size-sm: 18px;
     --size-md: 20px;
     --size-lg: 36px;
@@ -22,6 +24,7 @@
     --bold: 700;
 
     /* Spacing */ 
+    --spacing-20: 20px;
     --spacing-32: 32px;
     --spacing-60: 60px;
     --spacing-50: 50px;
