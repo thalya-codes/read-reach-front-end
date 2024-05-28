@@ -11,6 +11,8 @@
 <?php include '../../includes/head.php'; ?>
 
 <body>
+    <?php include '../../includes/header.php'; ?>
+
     <!-- Tela de Usuário sem leitura cadastrada -->
     <div id="noReadingScreen" class="no-reading-screen">
         <p>Você não tem leituras cadastradas.</p>
