@@ -12,3 +12,30 @@ label, input, button {
     font-weight: var(--semi-bold);
     line-height: 150%;
 }
+
+footer {
+    width: 100%;
+    background-color: var(--white);    
+    padding: var(--spacing-20);
+    position: absolute;
+    bottom: 0;
+
+    text-align: center;
+    font-size: var(--size-xs);
+    font-weight: var(--semi-bold);
+    font-family: var(--family-secondary);
+}
+
+footer p {
+    display: inline;
+    color: var(--black);
+}
+
+footer a {
+    color: var(--hotpink);
+    text-decoration: none;
+}
+
+footer a:hover{
+    opacity: 80%;
+}
