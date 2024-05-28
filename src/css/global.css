@@ -6,13 +6,6 @@ label, input, button {
     margin: 0 !important;
 }
 
-.main-orange-text {
-    color: var(--orange);
-    font-family: var(--family-secondary);
-    font-weight: var(--semi-bold);
-    line-height: 150%;
-}
-
 
 header {
     display: flex;
@@ -39,19 +32,19 @@ header span {
     position: relative;
 }
 
-header span::after {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    background-color: var(--hotpink);
-    width: 98%;
-    height: 3px;
-    border-radius: 5px;
-}
-
 header img {
     width: 80px;
+}
+
+main {
+    position: relative;
+    top: 200px;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
@@ -79,4 +72,24 @@ footer a {
 
 footer a:hover{
     opacity: 80%;
+}
+
+/* Classes utilitarias */
+
+.main-orange-text {
+    color: var(--orange);
+    font-family: var(--family-secondary);
+    font-weight: var(--semi-bold);
+    line-height: 150%;
+}
+
+.pink-under-decoration::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    background-color: var(--hotpink);
+    width: 98%;
+    height: 3px;
+    border-radius: 5px;        
 }
