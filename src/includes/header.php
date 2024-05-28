@@ -1,4 +1,4 @@
 <header>
     <img src="../../assets/book-logo.png" alt="Livro aberto com uma lupa em cima">
-    <h1>Read<span>Reach</span></h1>
+    <h1>Read<span class="pink-under-decoration">Reach</span></h1>
 </header>
