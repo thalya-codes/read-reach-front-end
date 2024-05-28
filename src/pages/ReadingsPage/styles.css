@@ -2,6 +2,59 @@ body {
     background-color: var(--light-pink);
 }
 
+/* Tela sem leituras cadastradas */
+.no-reading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-32);
+    
+    width: 100%;
+    height: max-content;
+    padding:  var(--spacing-50);   
+}
+
+.no-reading__title {
+    font-size: var(--size-lg);
+    font-family: var(--family-primary);
+
+    text-align: center;
+    color: var(--black);
+
+    position: relative;
+    line-height: 50px;
+}
+
+.no-reading__title span::after {
+    width: 78%;
+    left: 10%;
+    right: 30%;
+}
+
+.no-reading__btn:hover { 
+    background-color: var(--soft-green);
+    color: var(--white); 
+    opacity: 80%;
+}
+
+.no-reading__btn { 
+    width: 50%;
+    color: var(--white);
+    text-align: center;
+    font-family: var(--family-secondary);
+    padding: var(--spacing-12);
+    background-color: var(--soft-green);
+}
+
+.no-reading__img {
+    align-self: end;
+    position: relative;
+    right: -50px;
+    bottom: -80px;
+}
+
+
 /* O Modal */
 .modal {
     display: none; /* Escondido por padrão */
@@ -23,7 +76,7 @@ body {
     width: 50vw;
     height: max-content;
     position: relative;
-    background-color: #fefefe;
+    background-color: var(--white);
     border-radius: var(--rounded-sm);
     padding: var(--spacing-50);    
     border: none;
@@ -70,7 +123,7 @@ body {
     color: var(--white);
     font-size: var(--size-sm);
     text-align: center;
-    padding: 12px;
+    padding: var(--spacing-12);
     width: 50%;
     align-self: center;
 }
