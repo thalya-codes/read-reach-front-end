@@ -25,6 +25,7 @@
     --bold: 700;
 
     /* Spacing */ 
+    --spacing-12: 12px;
     --spacing-20: 20px;
     --spacing-32: 32px;
     --spacing-60: 60px;
