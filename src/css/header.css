@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--white);    
+    padding: var(--spacing-20);
+    width: 100%;
+    box-shadow: var(--shadow-header);
+}
+
+header h1 {
+    color: var(--black);
+    font-family: var(--family-primary);
+    font-size: 40px;
+}
+
+header span {
+    position: relative;
+}
+
+header img {
+    width: 80px;
+}

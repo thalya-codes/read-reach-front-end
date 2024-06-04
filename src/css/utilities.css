@@ -1,0 +1,15 @@
+.w-50vw {
+    width: 50vw;
+}
+
+.text-xs {
+    font-size: var(--size-xs);
+}
+
+.bg-extra-light-blue {
+    background: var(--extra-light-blue);
+}
+
+.p-50{ 
+    padding: var(--spacing-50);
+}
