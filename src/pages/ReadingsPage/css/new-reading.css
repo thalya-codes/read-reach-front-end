@@ -1,0 +1,15 @@
+
+.add-new-reading--btn { 
+    width: 50%;
+    color: var(--white);
+    text-align: center;
+    font-family: var(--family-secondary);
+    padding: var(--spacing-12);
+    background-color: var(--soft-green);
+}
+
+.add-new-reading--btn:hover { 
+    background-color: var(--soft-green);
+    color: var(--white); 
+    opacity: 80%;
+}

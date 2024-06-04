@@ -1,0 +1,17 @@
+
+.no-reading-title {
+    font-size: var(--size-lg);
+    font-family: var(--family-primary);
+
+    text-align: center;
+    color: var(--black);
+
+    position: relative;
+    line-height: 50px;
+}
+
+.no-reading-title span::after {
+    width: 78%;
+    left: 10%;
+    right: 30%;
+}
