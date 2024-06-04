@@ -5,6 +5,7 @@
             <!-- Conteúdo adicional no head -->
             <title>ReadReach - Login</title>
             <link rel='stylesheet' href='./styles.css'>
+            <script src='./js/handleLogin.js' type='module'></script>
         ";
     ?>
     <?php include '../../includes/head.php'; ?>
@@ -13,7 +14,7 @@
         <?php include '../../includes/header.php'; ?>
         <main>
             
-            <form action="" class="card-read-reach w-50vw d-flex flex-column gap-3">
+            <form id="login-form" method="post" class="card-read-reach w-50vw d-flex flex-column gap-3">
                 <h2 class="principal-title">Bem vindo(a) de volta!</h2>
                 
                 <div class="d-flex flex-column row-gap-2 mb-4">
