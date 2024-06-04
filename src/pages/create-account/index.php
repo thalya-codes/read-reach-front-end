@@ -4,6 +4,7 @@
         $additional_head_content = "
             <!-- Conteúdo adicional no head -->
             <title>ReadReach - Criar conta</title>
+            <script src='./js/handleCreateAccount.js' type='module'></script>
         ";
     ?>
     <?php include '../../includes/head.php'; ?>
@@ -12,7 +13,7 @@
        <?php include '../../includes/header.php'; ?>
 
        <main>
-           <form action="" class="card-read-reach w-50vw d-flex flex-column gap-3">
+           <form id="form-create-account" method="post" class="card-read-reach w-50vw d-flex flex-column gap-3">
                <h2 class="principal-title">Criar conta</h2>
                
                <div class="d-flex flex-column row-gap-2 mb-4">
