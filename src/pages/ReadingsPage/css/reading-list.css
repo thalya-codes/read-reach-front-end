@@ -2,7 +2,7 @@
 .reading-list {
     display: grid;
     gap: var(--spacing-20);
-    grid-template-columns: repeat(auto-fit, minmax(200px, 500px));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     justify-content: center;
     width: 80%;
     list-style: none;   
