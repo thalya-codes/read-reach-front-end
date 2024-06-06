@@ -1,5 +1,6 @@
 import { createReading } from "../services/createReading.js";
 import { handleShowReadings } from "../handlers/handleShowReadings.js";
+import { clearFields } from "../../../../js/utils/clearFields.js";
 
 const register_new_reading_form = document.getElementById(
   "register-reading-form"
@@ -18,6 +19,7 @@ export const handleCreateReading = async (event) => {
   };
 
   const data = await createReading(new_reading);
+  clearFields([title, author, start_date, end_date, rating]);
   await handleShowReadings(data);
 };
 
