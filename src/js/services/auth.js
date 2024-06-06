@@ -10,3 +10,24 @@ export async function authenticateUser(data) {
     console.log(error);
   }
 }
+
+//TODO: Trocar URL
+export function checkAuth() {
+  const current_route = window.location.pathname;
+  const private_route = "/Readings";
+  const isPrivateRoute = current_route.includes(private_route);
+  const isAuthenticated = localStorage.getItem(ACCESS_TOKEN_KEY) !== null;
+
+  if (!isAuthenticated && isPrivateRoute) {
+    window.location.replace(
+      "http://localhost/read-reach-front-end/src/pages/login/index.php"
+    );
+    return;
+  }
+
+  if (isAuthenticated && current_route.includes("/login")) {
+    window.location.replace(
+      "http://localhost/read-reach-front-end/src/pages/ReadingsPage/index.php"
+    );
+  }
+}
